@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="15" alignment="CENTER"
+      xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.libraryapp.ViewItemsByTypeController">
+
+    <padding><Insets top="20" bottom="20" left="20" right="20"/></padding>
+
+    <Label text="View Items by Type" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button fx:id="bookBtn" text="Book" onAction="#onTypeButtonClicked"/>
+        <Button fx:id="publicationBtn" text="Publication" onAction="#onTypeButtonClicked"/>
+    </HBox>
+
+    <TextArea fx:id="itemsTextArea" editable="false" prefHeight="300" prefWidth="600" wrapText="true"/>
+</VBox>

@@ -1,0 +1,4 @@
+4019|Book|The Great Gatsby|Fiction|F.Scott|2000|true|59|2025-06-12|A
+7822|Book|Himu|Fiction|Humayun Ahmed|1996|false|null|null|Alo
+5326|Book|1984|Fiction|George Orwell|2000|true|50|2025-06-12|Any
+5126|Publication|Efficient Algorithms for Large-Scale Data Analysis|Computer Science|Dr. Ayesha Rahman,Prof. Omar Malik|2023|true|50|2025-06-06|Proceedings of the IEEE International Conference on Big Data (IEEE BigData 2023)

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300" prefWidth="389.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.libraryapp.LoginController">
+
+    <children>
+        <Label layoutX="69.0" layoutY="47.0" style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Library Management System" />
+
+        <Button layoutX="140.0" layoutY="124.0" onAction="#onLibrarianLogin" text="Login as Librarian" />
+        <Button layoutX="140.0" layoutY="172.0" onAction="#onMemberLogin" text="Login as Member" />
+    </children>
+</AnchorPane>

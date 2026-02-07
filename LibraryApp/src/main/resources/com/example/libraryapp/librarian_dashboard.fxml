@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10" alignment="CENTER"
+      xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.libraryapp.LibrarianDashboardController">
+
+    <padding><Insets top="20" bottom="20" left="20" right="20"/></padding>
+
+    <Label text="Librarian Dashboard" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+    <Button text="➕ Add New Member" onAction="#openAddNewMember"/>
+    <Button text="🔍 Search by Item ID" onAction="#openSearchByItemId"/>
+    <Button text="🔍 Search by Title and Author" onAction="#openSearchByTitleAuthor"/>
+    <Button text="📥 Check-in Item" onAction="#onCheckInItem"/>
+    <Button text="📤 Checkout Item" onAction="#onCheckOutItem"/>
+    <Button text="📊 View Checkout Status" onAction="#onViewCheckoutStatus"/>
+    <Button text="📚 View Items by Type" onAction="#onViewItemsByType"/>
+    <Button text="📖 View All Items" onAction="#onViewAllItems"/>
+    <Button text="📘 Add New Book" onAction="#onAddNewBook"/>
+    <Button text="➕ Add New Publication" onAction="#onAddNewPublication"/>
+    <Button text="🔁 Back to Login" onAction="#onBackToLogin"/>
+    <Button text="❌ Exit" onAction="#onExit"/>
+</VBox>
